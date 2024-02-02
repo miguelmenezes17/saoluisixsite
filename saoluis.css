@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Charm & family= Courgette & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Courgette&family=Junge&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-um: #BF2A45;
+    --cor-dois: #0339A6;
+    --cor-tres: #0339A6;
+    --cor-quatro: #022859;
+    --cor-cinco: #e6c69f;
+    --cor-seis: #fff2e2;
+    --cor-sete: #e2cfb79d;
+}
+
+body {
+    background-color: var(--cor-cinco);
+}
+
+main {
+    background-color: var(--cor-seis);
+    max-width: 750px;
+    min-width: 300px;
+    margin: auto;
+    padding: 18px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+}
+
+header {
+    background-image: linear-gradient(to right, var(--cor-dois), var(--cor-quatro));
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+header h1 {
+    text-align: center;
+    padding-right: 12px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: white;
+    text-decoration: underline rgba(255, 255, 255, 0.63);
+    text-shadow: 1px 1px 3px black;
+}
+
+header > nav {
+    padding: 10px;
+    
+}
+header > nav > a {
+    color: var(--cor-cinco);
+    margin: 2px 0px 10px 20px;
+    padding: 10px 12px;
+    line-height: 3.1em;
+    background-color: #0b2149b9;
+    border-radius: 12px;
+    transition-duration: 0.5s;
+}
+
+header a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+p  {
+    text-indent: 12px;
+    line-height: 1.5em;
+    font-family: 'Junge', cursive;
+    margin: 5px;
+    padding: 12px;
+    line-height: 2em;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 1.9em;
+    font-family: 'Charm', cursive;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
+    background-color: rgb(98, 98, 187);
+    margin: 22px;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+}
+
+div.luisfoto1 {
+    text-align: center;
+}
+
+div.luisfoto2 {
+    text-align: center;
+}
+
+div.luisfoto3 {
+    text-align: center;
+}
+
+
+/* As primeiras configurações de div.video00 e iframe são configurações bases para centralizações de videos*/
+div.video00 {
+    background-color: var(--cor-sete);
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.267);
+    margin: 0px -18px 30px -18px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56%;
+}
+
+div.video00 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.video01 {
+    background-color: var(--cor-sete);
+    position: relative;
+    margin: 0px -18px 30px -18px;
+    padding: 20px;
+    padding-bottom: 57%;
+}
+
+div.video01 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.video02 {
+    background-color: var(--cor-sete);
+    position: relative;
+    margin: 0px -18px 30px -18px;
+    padding: 20px;
+    padding-bottom: 57%;
+}
+
+div.video02 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.video03 {
+    background-color: var(--cor-sete);
+    position: relative;
+    margin: 0px -18px 30px -18px;
+    padding: 20px;
+    padding-bottom: 57%;
+}
+
+div.video03 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: var(--cor-quatro);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.377);
+    margin: 18px;
+    padding: 16px;
+}
+
+footer {
+    background-color: rgba(62, 62, 133, 0.719);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.445);
+}
+
+em {
+    background-color: var(--cor-cinco);
+}
+
+main img {
+    width: 100%;
+}
