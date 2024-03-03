@@ -93,6 +93,9 @@ h2 {
 
 div.luisfoto1 {
     text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div.luisfoto2 {
